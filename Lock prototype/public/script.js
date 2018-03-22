@@ -9,10 +9,7 @@ function ready() {
 	socket = new ReconnectingWebsocket(url);
 	socket.onmessage = function(evt) {
     
-    //This function is checking the input data received from the server and generates output in the web client. 
-    //If the check box is checked, the image of a lock is displayed.
-    //If the check box is unchecked, the image of an unlocked lock appears instead.
-		
+    //This function is checking the input data received from the server and generates output in the web client. 		
     if (evt.data == 'checked') {
 			document.querySelector('input[type="checkbox"]').checked = true;
 			document.getElementById("lock").style.backgroundImage = "url('assets/padlock_closed.png')";
