@@ -4,7 +4,7 @@ This is a skeleton websocket example. It consists of a "server" script (app.js) 
 
 The example shows how to send a message from a client and have this distributed to every other client connected to the same server.
 
-A hosted version of this is on [Glitch](https://prototype-programming2.glitch.me)
+A hosted version of this is on [Glitch](https://glitch.com/edit/#!/prototype-programming2?path=public/script.js:22:45)
 
 # Setup 
 
