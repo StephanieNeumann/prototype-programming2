@@ -9,8 +9,8 @@ function ready() {
 	socket = new ReconnectingWebsocket(url);
 	socket.onmessage = function(evt) {
     
-    //This function is checking the input data received from the server and generates different output. 
-    //If the check box in the toggle switch is checked, the image of a lock is displayed.
+    //This function is checking the input data received from the server and generates output in the web client. 
+    //If the check box is checked, the image of a lock is displayed.
     //If the check box is unchecked, the image of an unlocked lock appears instead.
 		
     if (evt.data == 'checked') {
@@ -29,8 +29,7 @@ function send(str) {
 }
 
 
-//Listening if the checkbox, in the toggle switch, is checked or not. 
-//Then sends the result to the server. 
+//Listening if the checkbox is checked or not. Then sends the result to the server. 
 
 document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.querySelector('input[type="checkbox"]');
