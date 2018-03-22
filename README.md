@@ -1,22 +1,21 @@
-# Using websockets for syncing graphical user interfaces on different devices in real time
+# Using websockets for syncing graphical user interfaces and user input on different devices
 
-This is a skeleton websocket example. It consists of a "server" script (app.js) that runs in the Node.js environment, and typical "client" code in the public/ folder.
+This javascript project shows how to send a checkbox input from a client to a server and have it distributed to every other client connected to the same server. The interaction with the graphical user interface and the change of its appearence is synced to all devices that use the url in their web browser. I
 
-The example shows how to send an checkbox input from a client and have this distributed to every other client connected to the same server.
+The project consists of a "server" script (app.js) that runs in the Node.js environment, and "client" code in the public folder.
 
-A hosted version of this is on [Glitch](https://glitch.com/edit/#!/prototype-programming2?path=public/script.js:1:0)
+See a hosted version of this on [Glitch](https://glitch.com/edit/#!/prototype-programming2?path=public/script.js:1:0)
 
 # Setup 
 
-In the directory you've got this sample:
-
 Download the master.zip file and unpack it. Open npm command line and change directory to the location of folder.
 
-$ cd/YOUR PATH//
+`$ cd/YOUR PATH/prototype-programming2/Lock prototype`
+
+Install node, the necessary packages from npm.
 
 `$ npm install`
 
-This will install the necessary packages from npm.
 
 # Running
 
@@ -24,12 +23,16 @@ Once set up, you can boot up your server with
 
 `$ npm start`
 
-If running successfully the portnumber
-Open new tab in terminal 
+If running successfully the portnumber will show in the command line.
 
-`$ ngrok http portnumber`
+(It will continue running. To stop it again, press CTRL+C (PC) or CMD+C (Mac))
 
-It will continue running. To stop it again, press CTRL+C (PC) or CMD+C (Mac).
+Open new tab in command line and type: 
+
+`$ ngrok http PORTNUMBER`
+
+Copy the http url that appears and run it in your web browser(s). 
+
 
 # Uses
 
