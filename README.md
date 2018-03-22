@@ -10,6 +10,10 @@ A hosted version of this is on [Glitch](https://glitch.com/edit/#!/prototype-pro
 
 In the directory you've got this sample:
 
+Download the master.zip file and unpack it. Open npm command line and change directory to the location of folder.
+
+$ cd/YOUR PATH//
+
 `$ npm install`
 
 This will install the necessary packages from npm.
