@@ -1,10 +1,10 @@
-# websockets-skeleton
+# Using websockets for syncing graphical user interfaces on different devices in real time
 
 This is a skeleton websocket example. It consists of a "server" script (app.js) that runs in the Node.js environment, and typical "client" code in the public/ folder.
 
-The example shows how to send a message from a client and have this distributed to every other client connected to the same server.
+The example shows how to send an checkbox input from a client and have this distributed to every other client connected to the same server.
 
-A hosted version of this is on [Glitch](https://glitch.com/edit/#!/prototype-programming2?path=public/script.js:22:45)
+A hosted version of this is on [Glitch](https://glitch.com/edit/#!/prototype-programming2?path=public/script.js:1:0)
 
 # Setup 
 
@@ -20,6 +20,11 @@ Once set up, you can boot up your server with
 
 `$ npm start`
 
+If running successfully the portnumber
+Open new tab in terminal 
+
+`$ ngrok http portnumber`
+
 It will continue running. To stop it again, press CTRL+C (PC) or CMD+C (Mac).
 
 # Uses
@@ -30,4 +35,4 @@ It will continue running. To stop it again, press CTRL+C (PC) or CMD+C (Mac).
 
 * [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications)
 * [express-ws](https://www.npmjs.com/package/express-ws)
-# programming2-prototype
+
