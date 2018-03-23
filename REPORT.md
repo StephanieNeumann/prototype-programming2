@@ -4,8 +4,7 @@ The benefits of prototyping with code is that its often possible to quickly chan
 
 <img src="https://user-images.githubusercontent.com/35526741/37828627-5757b622-2e9c-11e8-8eb1-bc7f53f57b32.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/35526741/37828629-5b5aea0a-2e9c-11e8-836b-fa93666f37a5.gif" width="15%"> </img> 
 
-
-<img src="https://user-images.githubusercontent.com/35526741/37828862-2ae9c778-2e9d-11e8-8ea9-4d4d43a3b241.png" width="15%"></img> 
+<img src="https://user-images.githubusercontent.com/35526741/37828965-8a0e3c70-2e9d-11e8-9ffc-44590faa3abf.png" width="15%"></img> 
 
 The interface above displays the change of the lock between being locked and unlocked. I used the web sockets for creating the remote features to controll
 what happened on the user's screen. The purpose of the prototype
