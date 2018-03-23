@@ -2,7 +2,10 @@
 ## Final Project 
 The benefits of prototyping with code is that its often possible to quickly change the behaviour of the prototype. As an example there is the arduino prototype with a motor that rotates styrofoam balls. By just altering some numbers in the code the movement can quickly be changed from swiping back and forth at 180 degrees to a constantly rotating movement of 360 degrees. The pace of the movement can be changed aswell as delays and the preset different timings. Its possible to prepare different code snippets, sending it to the arduino board and change the prototype quickly. Arduino is really good for making wireless experiences with automatic functions. We thought of making some user testing with experience prototyping, having users test our prototypes in different locations, carrying the prototype with them and the arduino connected to a USB. Without code and electronics we couln't have created this experience with a self-contained prototype that can create movement by "itself" with a motor controlled by the code in the microprocessor. But occassionally it was so much faster to create the same result by just putting a styrofoam ball on a stick and move it manually. Less materials were required and movement patterns could be changed in no time. The automatic and remote functionality got lost though.
 
-<img src="https://user-images.githubusercontent.com/35526741/37828627-5757b622-2e9c-11e8-8eb1-bc7f53f57b32.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/35526741/37828629-5b5aea0a-2e9c-11e8-836b-fa93666f37a5.gif" width="15%"> </img> <img src="https://user-images.githubusercontent.com/35526741/37828862-2ae9c778-2e9d-11e8-8ea9-4d4d43a3b241.png" width="15%"></img> 
+<img src="https://user-images.githubusercontent.com/35526741/37828627-5757b622-2e9c-11e8-8eb1-bc7f53f57b32.gif" width="15%"></img> <img src="https://user-images.githubusercontent.com/35526741/37828629-5b5aea0a-2e9c-11e8-836b-fa93666f37a5.gif" width="15%"> </img> 
+
+
+<img src="https://user-images.githubusercontent.com/35526741/37828862-2ae9c778-2e9d-11e8-8ea9-4d4d43a3b241.png" width="15%"></img> 
 
 The interface above displays the change of the lock between being locked and unlocked. I used the web sockets for creating the remote features to controll
 what happened on the user's screen. The purpose of the prototype
