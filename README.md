@@ -8,7 +8,9 @@ See a hosted version of this on [Glitch](https://glitch.com/edit/#!/prototype-pr
 
 # Setup 
 
-Download the master.zip file and unpack it. Open npm command line and change directory to the location of folder.
+Download the master.zip file and unpack it. Add the node_modules folder in the Lock prototype folder. 
+
+Open npm command line and change directory to the location of folder.
 
 `$ cd/YOUR PATH/prototype-programming2/Lock prototype`
 
